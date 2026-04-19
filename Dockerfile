@@ -12,6 +12,3 @@ ENV VERSION="2022" \
 
 # Expose the Dockur web viewer port
 EXPOSE 8006
-
-# Windows disk/data storage location
-VOLUME /storage
