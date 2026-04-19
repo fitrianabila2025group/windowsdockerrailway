@@ -4,11 +4,8 @@ dockerfilePath = "./Dockerfile"
 
 [deploy]
 restartPolicyType = "ON_FAILURE"
-restartPolicyMaxRetries = 5
+restartPolicyMaxRetries = 10
 
 [[ports]]
 port = 8006
 protocol = "TCP"
-
-[volumes]
-"/storage" = "windows_storage"
