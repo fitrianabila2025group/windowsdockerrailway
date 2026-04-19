@@ -10,5 +10,8 @@ ENV VERSION="2022" \
     REGION="id-ID" \
     KEYBOARD="id-ID"
 
+# Ensure storage folder exists
+RUN mkdir -p /storage
+
 # Expose the Dockur web viewer port
 EXPOSE 8006
